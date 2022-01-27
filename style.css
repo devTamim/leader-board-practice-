@@ -138,3 +138,68 @@ hr {
 .heading-2 {
   padding: 0;
 }
+@media only screen and (max-width: 688px) {
+  .players {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+  }
+  .container {
+    width: 100%;
+  }
+  .player {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .section-title {
+    text-align: center;
+  }
+  .blogs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .blog {
+    margin: 5px;
+  }
+
+  .blog-title h4 {
+    font-size: 20px;
+  }
+  .course-section {
+    width: 100%;
+  }
+  .courses {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+}
+@media only screen and (min-width: 688px) and (max-width: 952px) {
+  .players {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+  .container {
+    width: 100%;
+  }
+  .player {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .section-title {
+    text-align: center;
+  }
+  .blogs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .blog-title h4 {
+    font-size: 20px;
+  }
+  .course-section {
+    width: 100%;
+  }
+  .courses {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+}
