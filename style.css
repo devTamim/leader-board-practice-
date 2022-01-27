@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+body {
+  background-color: #e5e5e5;
+  font-family: "Poppins", sans-serif;
+}
+main {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.container {
+  width: 870px;
+  background-color: #ffff;
+  padding: 33px 33px 42px 28px;
+}
+
+.section-title {
+  font-size: 24px;
+  color: #562eff;
+  margin: 0;
+  padding-bottom: 40px;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 29px;
+  padding-bottom: 21px;
+}
+.player {
+  display: flex;
+
+  align-items: center;
+}
+
+.player img {
+  width: 56px;
+  height: 56px;
+}
+.player-name {
+  font-size: 18px;
+  padding-left: 16px;
+}
+hr {
+  border: 1px solid #d1d1d1;
+  margin-bottom: 29px;
+}
+
+/* blogs start */
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.blog {
+  display: flex;
+}
+.blog-img {
+  width: 177px;
+  height: 117px;
+}
+.blog-img img {
+  width: 100%;
+}
+.blog-title {
+  padding-left: 16px;
+}
+.blog-title h4 {
+  font-size: 20px;
+  margin: 0;
+  font-weight: 500;
+}
+.blog-title p {
+  font-size: 16px;
+  margin-top: 6px;
+}
+.blog-title a {
+  text-decoration: none;
+  color: #562eff;
+}
+/* ----blog-end----- */
+.course-section {
+  width: 870px;
+  background-color: #ffff;
+  padding: 23px 33px 42px 28px;
+  margin-top: 21px;
+}
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.course {
+  width: 252.42px;
+  padding: 24px 17.42px 19px 11px;
+}
+.course img {
+  width: 100%;
+}
+.course h3 {
+  font-size: 20.03px;
+  color: #1e1e1e;
+  font-weight: 500;
+  padding-top: 19px;
+  margin: 0;
+}
+.course p {
+  padding-top: 7.17px;
+  margin: 0;
+  font-size: 14.6913px;
+  color: #ed6b4f;
+}
+.course-footer {
+  padding-top: 19.25px;
+  display: flex;
+  justify-content: space-between;
+}
+.star .fas {
+  font-size: 12px;
+  color: #ffc014;
+}
+.defult .fas {
+  color: #aeaeae;
+}
+.count {
+  padding-left: 10px;
+  font-size: 15px;
+  color: #a2a2a2;
+}
+.time {
+  background-color: #ffe4e8;
+  padding: 5px 10px;
+  border-radius: 20px;
+
+  color: #ff4a60;
+}
+.time span {
+  font-size: 14.6913px;
+}
+.heading-2 {
+  padding: 0;
+}
